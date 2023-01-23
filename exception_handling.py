@@ -13,3 +13,14 @@ except TypeError:
     print('data types do not match')
 finally:
     print('this text will occure anyways - Error or No Error')
+    
+    
+# TASK: Implement the divider with error handling.
+# MAKE SURE TO READ THE FULL INSTRUCTIONS ABOVE CAREFULLY, AS THE EVALUATION SCRIPT IS VERY STRICT.
+
+def divider(a, b):
+    # TODO
+    try:
+        return a/b
+    except ZeroDivisionError:
+        print('Please do not divide by zero!')
